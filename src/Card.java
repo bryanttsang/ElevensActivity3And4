@@ -87,7 +87,7 @@ public class Card {
      */
     @Override
     public String toString() {
-        return suit + rank + " (point value = " + pointValue + ")";
+        return rank + suit + " (point value = " + pointValue + ")";
     }
 }
 
